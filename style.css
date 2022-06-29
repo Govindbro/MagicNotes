@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Kaushan+Script&family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  background-image: url(cover.webp);
+  background-size: cover;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  background-color: #000;
+  height: 65px;
+  color: white;
+  justify-content: space-between;
+  padding-right: 10rem;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.3rem;
+  display: flex;
+  font-family: "Kaushan Script", cursive;
+  align-items: center;
+}
+
+.logo img {
+  width: 44px;
+  padding: 0 8px;
+}
+
+.search {
+  float: right;
+}
+
+.hm:hover {
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+.ab:hover {
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  transform: scale(1.06);
+  cursor: pointer;
+}
+
+#search {
+  outline: none;
+  height: 20px;
+  width: 12rem;
+  padding: 2px;
+  margin-left: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding: 1rem;
+  background-color: white;
+  margin-top: 1rem;
+  width: 50%;
+}
+
+.content h1 {
+  font-weight: bolder;
+  font-family: "Kaushan Script", cursive;
+}
+
+.notearea {
+  margin: 15px;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888;
+}
+
+.notearea h2 {
+  font-weight: bolder;
+}
+
+.notearea textarea {
+  width: 97%;
+  height: 10rem;
+  resize: vertical;
+  outline: none;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.btn1 {
+  width: 7rem;
+  padding: 5px;
+  background-color: rgb(56, 68, 236);
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: solid 1.5px white;
+}
+
+#Notes {
+  width: 65rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#noteCard {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn2 {
+  width: 7rem;
+  padding: 5px;
+  background-color: rgb(56, 68, 236);
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+
+.card-body {
+  text-decoration: none;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px #888;
+}
+
+.card-body p {
+  margin: 5px 0;
+}/*# sourceMappingURL=style.css.map */
